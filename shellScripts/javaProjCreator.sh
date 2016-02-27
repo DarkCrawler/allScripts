@@ -7,12 +7,12 @@ echo -e "Enter project name > \n"
 read projName
 mkdir $projName
 cd $projName
-touch build.gradle
-touch settings.gradle
 mkdir src
 cd src
-mkdir java
+mkdir main
 mkdir test
+cd main
+mkdir java
 cd java
 echo -e "Enter desired package name : seperated by . \n"
 read packname
