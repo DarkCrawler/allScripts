@@ -7,6 +7,9 @@ echo -e "Enter project name > \n"
 read projName
 mkdir $projName
 cd $projName
+touch build.gradle
+touch .gitignore
+touch settings.gradle
 mkdir src
 cd src
 mkdir main
@@ -24,6 +27,6 @@ do
 done
 touch main.java
 echo "Your java project struture is ready for use"
-$SHELL
+
 
 
